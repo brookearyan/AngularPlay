@@ -9,7 +9,3 @@ export class DropdownDirective {
     this.isOpen = !this.isOpen;
   }
 }
-//alows css class to element it sits on omce its clicked
-//rms toggles class off when clicked again
-//open css class
-

@@ -1,9 +1,8 @@
-<app-header (viewSelected)="onNavigate($event)"></app-header>
+<app-header></app-header>
 <div class="container">
   <div class="row">
     <div class="md-col-12">
-      <recipes *ngIf="whichView === 'RECIPES'"></recipes>
-      <app-shopping-list *ngIf="whichView !== 'RECIPES'"></app-shopping-list>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
